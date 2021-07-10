@@ -1,5 +1,5 @@
 import hashlib
-user_input = input("Enter text here (MD5) ")
+user_input = input("Enter text here (MD5): ")
 salt = "enteryoursalt"
 textandsalt = salt + user_input
 h_md5 = hashlib.md5(textandsalt.encode())
